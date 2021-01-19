@@ -5,14 +5,21 @@ public class student {
     int student_roll_number;
      String student_name;
      int student_Std_class;
-     int mobileNumber;
+     int mobile_Number;
 
     public student () {
 
     }
 
-    public student (int Mobile_number) {
-        this.mobileNumber=Mobile_number;
+    public student (String student_name,
+                    int student_roll_number,
+                    int student_Std_class,int Mobile_number) {
+        this.student_name = student_name;
+        this.student_roll_number = student_roll_number;
+        this.student_Std_class = student_Std_class;
+        this.mobile_Number=Mobile_number;
+
+
 
     }
 
